@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { act, useEffect, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 import api from "../../utils/api";
 import ReactPlayer from "react-player/youtube";
@@ -36,6 +36,8 @@ const Detail = () => {
             controls
             width={"100%"}
             height={"100%"}
+            muted={true}
+            playing={true}
           />
         </div>
         {/* açıklamalar */}

@@ -6,7 +6,7 @@ const api = axios.create({
     lang: "tr",
   },
   headers: {
-    "x-rapidapi-key": "c5c43686d8msh20a5439643be6abp126457jsnf45eef1e89ab",
+    "x-rapidapi-key": "eed126f9bcmshc5525da323f2af8p1ab61fjsn34753381407b",
     "x-rapidapi-host": "yt-api.p.rapidapi.com",
   },
 });
