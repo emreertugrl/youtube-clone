@@ -49,15 +49,15 @@ The YouTube Clone project is designed to mimic the core functionalities of YouTu
 
 ## Live Demo
 
-<a href="">Netlify Project View</a>
+<a href="https://youtubeappclonee.netlify.app/">Netlify Project View</a>
 
-## API'ler
+## API
 
 YouTube API: Fetches video data, including video details, search results, and related videos.
 
 ## Contact
 
-For any questions or suggestions, feel free to reach out:
+For any questions or suggestions, feel free to reach out:[YT-API ](https://rapidapi.com/ytjar/api/yt-api)
 
 - Email: emreertugrl7@gmail.com
 - LinkedIn: [emreertugrul7](https://www.linkedin.com/in/emreertugrul7/)
