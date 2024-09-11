@@ -32,6 +32,10 @@ const SearchResults = () => {
       .catch((err) => console.log(err))
       .finally(() => setIsLoading(false));
   }, [query, page]);
+  // eğer bir şey aratılırsa önceki datayı sil
+  useEffect(() => {
+    setPage(1), setData([]), setToken(null);
+  }, [query]);
 
   return (
     <div className="p-4 sm:p-6 md:p-10 h-[90vh] overflow-y-auto flex flex-col items-center">
